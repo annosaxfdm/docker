@@ -1,0 +1,12 @@
+{
+	log {
+		level warn
+	}
+	auto_https off
+}
+
+http://localhost
+
+root * /html
+reverse_proxy /ontology* rickview:8101
+file_server
