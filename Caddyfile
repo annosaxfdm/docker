@@ -5,7 +5,7 @@
 	auto_https off
 }
 
-http://localhost
+http://localhost, annosaxfdm.de, annosaxfdm.imise.uni-leipzig.de
 
 root * /html
 reverse_proxy /ontology* rickview:8101
