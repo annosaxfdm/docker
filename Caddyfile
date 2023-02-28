@@ -2,10 +2,9 @@
 	log {
 		level warn
 	}
-	auto_https off
 }
 
-:80
+:80, :443
 
 root * /html
 reverse_proxy /ontology* rickview:8101
