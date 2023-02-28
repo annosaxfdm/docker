@@ -27,8 +27,6 @@ services:
       - ./rickview.toml:/app/data/config.toml
     ports:
       - "127.0.0.1:8101:8101"
-    #depends_on:
-    #  - ontology
     restart: unless-stopped
 
   caddy:
@@ -38,6 +36,7 @@ services:
       - html:/html
     ports:
       - "0.0.0.0:8100:80"
+    restart: unless-stopped
 
 volumes:
   html:
