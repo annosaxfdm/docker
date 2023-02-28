@@ -1,3 +1,3 @@
 [submodule "annosaxfdm.de"]
 	path = annosaxfdm.de
-	url = git@github.com:annosaxfdm/annosaxfdm.de.git
+	url = ../annosaxfdm.de.git
