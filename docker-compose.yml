@@ -12,13 +12,13 @@ services:
   rickview:
     image: ghcr.io/konradhoeffner/rickview:master
     environment:
-      - RICKVIEW_KB_FILE=https://github.com/annosaxfdm/ontology/releases/latest/download/anno.ttl
+      - RICKVIEW_KB_FILE=https://github.com/annosaxfdm/ontology/releases/download/23.02.01/annomergetest.ttl
       - RICKVIEW_PREFIX=anno
-      - RICKVIEW_NAMESPACE=http://annosaxfdm.de/ontology/
+      - RICKVIEW_NAMESPACE=https://annosaxfdm.de/ontology/
       - RICKVIEW_BASE=/ontology
       - RICKVIEW_TITLE=ANNO
       - RICKVIEW_SUBTITLE=Anthropological Notation Ontology
-      - RICKVIEW_EXAMPLES=Os Anatomical_location Anatomical_plane Mandibula
+      - RICKVIEW_EXAMPLES=Bone Anatomical_location Anatomical_plane Mandibula
       - RICKVIEW_HOMEPAGE=https://annosaxfdm.de
       - RICKVIEW_PORT=8101
       - RICKVIEW_LOG_LEVEL=debug
