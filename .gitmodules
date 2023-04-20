@@ -1,3 +1,4 @@
 [submodule "annosaxfdm.de"]
 	path = annosaxfdm.de
 	url = ../annosaxfdm.de.git
+	branch = master
