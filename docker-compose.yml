@@ -17,7 +17,7 @@ services:
       - RICKVIEW_BASE=/ontology
       - RICKVIEW_TITLE=ANNO
       - RICKVIEW_SUBTITLE=Anthropological Notation Ontology
-      - RICKVIEW_EXAMPLES=Bone Anatomical_location Anatomical_plane Mandibula
+      - RICKVIEW_EXAMPLES=Bone Mandibula AnatomicalStructure Phenotype AnatomicalProperty RelativeAnatomicalLocation
       - RICKVIEW_HOMEPAGE=https://annosaxfdm.de
       - RICKVIEW_PORT=8101
       - RICKVIEW_LOG_LEVEL=debug
