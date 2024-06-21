@@ -9,7 +9,7 @@ services:
       - html:/html
 
   rickview:
-    image: ghcr.io/konradhoeffner/rickview:master
+    image: ghcr.io/konradhoeffner/rickview:glibc
     environment:
       - RICKVIEW_KB_FILE=https://github.com/annosaxfdm/ontology/releases/latest/download/anno.ttl
       - RICKVIEW_PREFIX=anno
